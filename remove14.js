@@ -6,7 +6,7 @@
  */
 
 function remove14(array) {
-    var map = {}
+    var map = {},
         result = [];
     for (var i = 0; i < array.length; i++) {
         var value = array[i];
