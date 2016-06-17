@@ -21,7 +21,7 @@ function remove14(array) {
         }
     }
 
-    for (var i = 1; i < 7; i++) {
+    for (var i = 1; i <= 7; i++) {
         if (map.hasOwnProperty(i) && map.hasOwnProperty(14 - i)) {
             map[i].qty--;
             map[14 - i].qty--;
